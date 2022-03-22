@@ -1,0 +1,10 @@
+shiro:
+  form-sign-in:
+    user-param: username #用户名参数名称
+    password-param: pswd #密码参数名称
+    remember-me-param: rememberMe #记住我参数名称
+  filter-chain-definitions: #默认为空，一般如下配置
+    /**: restAuthc
+    /static/**: anon
+    /js/**: anon
+    /**: anon
