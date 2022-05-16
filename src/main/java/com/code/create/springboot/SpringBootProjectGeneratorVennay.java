@@ -81,12 +81,12 @@ public class SpringBootProjectGeneratorVennay {
 
             createJavaFile(map, cfg, "Entity.ftl", "PO.java", Paths.get(controllerPath, "entity").toString());
 //            createJavaFile(map, cfg, "DTO.ftl", "DTO.java", Paths.get(controllerPath, "entity").toString());
-//            createJavaFile(map, cfg, "Mapper.ftl", "Mapper.java", Paths.get(controllerPath, "mapper").toString());
-//            createJavaFile(map, cfg, "XmlMapper.ftl", "Mapper.xml", Paths.get(controllerPath.substring(0, controllerPath.indexOf("java")), "resources", "mapper").toString());
+            createJavaFile(map, cfg, "Mapper.ftl", "Mapper.java", Paths.get(controllerPath, "mapper").toString());
+            createJavaFile(map, cfg, "XmlMapper.ftl", "Mapper.xml", Paths.get(controllerPath.substring(0, controllerPath.indexOf("java")), "resources", "mapper").toString());
 //            createJavaFile(map, cfg, "Manager.ftl","Manager.java",Paths.get(controllerPath, "manager").toString());
 //            createJavaFile(map, cfg, "ManagerImpl.ftl","ManagerImpl.java",Paths.get(controllerPath, "manager").toString());
-//            createJavaFile(map, cfg, "Service.ftl", "Service.java", Paths.get(controllerPath, "service").toString());
-//            createJavaFile(map, cfg, "ServiceImpl.ftl", "ServiceImpl.java", Paths.get(controllerPath, "service").toString());
+            createJavaFile(map, cfg, "Service.ftl", "Service.java", Paths.get(controllerPath, "service").toString());
+            createJavaFile(map, cfg, "ServiceImpl.ftl", "ServiceImpl.java", Paths.get(controllerPath, "service").toString());
             createJavaFile(map, cfg, "CreateCommand.ftl", "CreateCommand.java", Paths.get(controllerPath, "web", "command").toString());
 //            createJavaFile(map, cfg, "UpdateCommand.ftl", "UpdateCommand.java", Paths.get(controllerPath, "web", "command").toString());
 //            createJavaFile(map, cfg, "Assembler.ftl", "Assembler.java", Paths.get(controllerPath, "web", "assembler").toString());
