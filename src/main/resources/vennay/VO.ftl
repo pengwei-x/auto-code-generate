@@ -10,7 +10,7 @@ import java.io.Serializable;
 */
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class ${entityName} implements Serializable{
+public class ${entityName}DTO implements Serializable{
 
 private static final long serialVersionUID = 1L;
 <#list beans as bean>

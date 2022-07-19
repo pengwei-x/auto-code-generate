@@ -13,7 +13,7 @@ public class Config {
     /**
      * 项目名
      */
-    public static final String PROJECT_NAME = "itown";
+    public static final String PROJECT_NAME = "evaluation";
     /**
      * 组名
      * <groupId>${groupId}</groupId>
@@ -22,14 +22,14 @@ public class Config {
     /**
      * 基础包名
      */
-    public static final String BASE_PACKAGE = "";
+    public static final String BASE_PACKAGE = "com.yunzhicloud.evaluation";
 
     /**
      * 数据库配置
      */
-    public static final String URL = "jdbc:mysql://101.206.8.21:8306/db_itown_oa?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8";
-    public static final String USER = "itownoa";
-    public static final String PASSWORD = "itownOa@2022!";
+    public static final String URL = "jdbc:mysql://175.153.165.77:30274/db_evaluation?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8";
+    public static final String USER = "itown";
+    public static final String PASSWORD = "WW54acaL";
     /**
      * 根据表生产相应文件（未设置即全部）
      */

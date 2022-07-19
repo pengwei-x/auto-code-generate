@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
  * @author codeGenerate
  */
 @Repository
-public interface ${entityName}Mapper extends BaseMapper<${entityName}> {
+public interface ${entityName}Mapper extends BaseMapper<${entityName}PO> {
 
 }

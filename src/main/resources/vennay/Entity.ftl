@@ -1,4 +1,4 @@
-package ${packageName}.entity.po;
+package ${packageName}.entity;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;

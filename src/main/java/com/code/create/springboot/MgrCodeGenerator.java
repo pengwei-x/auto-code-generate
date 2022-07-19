@@ -118,7 +118,7 @@ public class MgrCodeGenerator {
                 String[] keys = entry.getKey().split("_");
 
                 for (int i = 0, len = keys.length; i < len; i++) {
-                    if (i == 0 |i==1) {
+                    if (i == 0 ) {
                         continue;
                     }
                     String k = keys[i];
@@ -250,9 +250,9 @@ public class MgrCodeGenerator {
 //                if (!Config.TABLE_NAME_FILTER.test(tableName)) {
 //                    continue;
 //                }
-                if (!tableName.contains(Config.TABLE_PATTERN)){
-                    continue;
-                }
+//                if (!tableName.contains(Config.TABLE_PATTERN)){
+//                    continue;
+//                }
                 rs = connection.getMetaData().getColumns(currentCatalog, null, tableName, null);
                 List<String> list = new ArrayList<String>();
                 while (rs.next()) {

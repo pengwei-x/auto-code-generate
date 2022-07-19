@@ -6,5 +6,5 @@ import ${packageName}.entity.po.${entityName};
 /**
  * @author pengwei
  */
-public interface ${entityName}Service extends IService<${entityName}> {
+public interface ${entityName}Service extends IService<${entityName}PO> {
 }
