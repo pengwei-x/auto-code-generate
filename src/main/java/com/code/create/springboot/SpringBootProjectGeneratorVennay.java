@@ -90,7 +90,7 @@ public class SpringBootProjectGeneratorVennay {
             createJavaFile(map, cfg, "CreateCommand.ftl", "CreateCommand.java", Paths.get(controllerPath, "web", "command").toString());
 //            createJavaFile(map, cfg, "UpdateCommand.ftl", "UpdateCommand.java", Paths.get(controllerPath, "web", "command").toString());
 //            createJavaFile(map, cfg, "Assembler.ftl", "Assembler.java", Paths.get(controllerPath, "web", "assembler").toString());
-//            createJavaFile(map, cfg, "Rest.ftl", "Rest.java", Paths.get(controllerPath, "web", "rest").toString());
+            createJavaFile(map, cfg, "Rest.ftl", "Rest.java", Paths.get(controllerPath, "web", "rest").toString());
             createJavaFile(map, cfg, "VO.ftl", "DTO.java", Paths.get(controllerPath, "entity").toString());
         } catch (Exception e) {
             e.printStackTrace();
